@@ -1,0 +1,92 @@
+Find the sum of first digit and last digit of integer inserted by user ?
+ a=int(input())
+ len=len(str(a))
+ last=a%10
+ first=a//(10**(len-1))
+ total = firs+lastprint("the sum =",total)
+                         or
+ a=(input())
+ c=int(a[0])
+ d=int(a[-1])
+ print(c+d)
+                        or
+ import math as m
+ a=int(input())
+ #len=len(str(a))
+ len=m.log10(a)
+ c=int(len)
+ last=a % 10
+ first=a//(10**(c))
+ total = first + last
+ print(total)
+Write th esequence 0 ,1 , 1 , 2 , 3 , 5 ........ ?
+ n=int(input())
+ t1=int(input())
+ t2=int(input())
+ tn=3
+ while tn <=(n):
+     t3=t1+t2
+     print(t3)
+     t1=t2
+     t2=t3
+     tn=tn+1
+Check whether the user inserted integer is armstrong number or not ?
+ n=int(input())
+ m=n
+ total=0
+ while n>0:
+     rem=n%%10
+     total=total +(rem**3)
+     n=n//10
+ if m ==total:
+     print("m" is armstrong number )
+ else:
+     print("m", is not armstrong number)
+                                     or  
+ 
+ m=(input())
+ a=m[0]
+ b=m[1]
+ c=m[2]
+ #d=m[3]
+ e=int(a)
+ i=int(b)
+ o=int(c)
+ #d=int(d)
+ v=(e**3)
+ f=(i**3)
+ g=(o**3)
+ #h=(d**3)
+ i=v+f+g
+ n=int(m)
+ print(bool(n==i))
+ """if int(m)==(v+f+g):
+     print("True")
+ else:
+     print("False")"""
+Check the no. of prime nummber in any number ?
+ l[]
+ n=int(input())
+ p=0
+ while n>0:
+    r=n%10
+    dc=0
+    for a in range(1,1+r):
+        if r%a==0:
+            dc=dc+1
+    if dc == 2:
+        p=p+1
+        l.append()
+    n=n//10
+ print('No of prime numbers are:-',p)
+Write a program that check whether the number is divisible by 11 b/w the range 1-1000
+Write a program that the string is panadrom or not 
+ n=input()
+ c=n[::-1]
+ v=(n==c)
+ print(bool(v))
+Write a program that :
+# In a nearby theature one scheme is announced that 1 purchase of the ticket will get a total of 10% of discount of the total cost of the ticket.The scheme will be applicable only if their is a bulk booking of more than 20 tickets. If someone has a special coupon card then the discount will be 2%. The coustmer can also purchase some refreshment and the additional cost of 50 ruppes per person. Ticket cost for class A is 150 and class B is 75 .
+# Write a program to calculate the total cost as per the given scheme.
+# Constraints:- either the class a and classs b min of 5 tickets and maximum 40 is only allowed. if their is a purchase is less then 5 then print the message "ither the class a and classs b min of 5 tickets and maximum 40 is only allowed."
+

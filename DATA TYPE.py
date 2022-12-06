@@ -1,0 +1,6 @@
+A=(input("Enter the value in A="))
+B=int(input("Enter the value in B="))
+C=float(input("Enter the value in C="))
+print("Value saved in Variable A is=",A)
+print("Value saved in Variable B is=",B)
+print("Value saved in Variable C is=",C)
